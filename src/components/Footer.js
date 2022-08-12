@@ -14,10 +14,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.instagram.com/asicargentina/" target="_Blank" ><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.instagram.com/asicargentina/" target="_Blank" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
-            <p>Created by <a href="http://lucastrigo.com" target="_blank" className="nounderline">Lucas Trigo</a></p>
+            <p>Created by <a href="http://lucastrigo.com" target="_blank" rel="noreferrer" className="nounderline">Lucas Trigo</a></p>
           </Col>
         </Row>
       </Container>
